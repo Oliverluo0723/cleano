@@ -1,0 +1,17 @@
+{
+    "name": "cleano",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "輕巧好用的工具庫，提供日期格式化與 HTML 字符轉義功能",
+    "keywords": [
+        "cleano",
+        "date-format",
+        "html-escape",
+        "html-unescape"
+    ],
+    "author": "BD",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
