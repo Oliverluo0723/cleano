@@ -1,7 +1,6 @@
 {
     "name": "cleano",
-    "version": "1.0.0",
-    "main": "index.js",
+    "version": "1.0.1",
     "description": "輕巧好用的工具庫，提供日期格式化與 HTML 字符轉義功能",
     "keywords": [
         "cleano",
@@ -9,9 +8,25 @@
         "html-escape",
         "html-unescape"
     ],
+    "type": "module",
+    "main": "dist/bundle.cjs",
+    "module": "dist/bundle.mjs",
+    "exports": {
+        "require": "./dist/bundle.cjs",
+        "import": "./dist/bundle.mjs"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c"
+    },
     "author": "BD",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^5.1.0"
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^4.50.2"
     }
 }

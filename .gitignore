@@ -1,1 +1,22 @@
+# Node
 node_modules/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (依你用的工具選一個即可)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
