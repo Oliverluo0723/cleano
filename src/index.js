@@ -1,7 +1,2 @@
-const date = require("./dateFormat")
-const escape = require("./htmlEscape")
-
-module.exports = {
-  ...date,
-  ...escape
-}
+export * from "./dateFormat.js";
+export * from "./htmlEscape.js";
